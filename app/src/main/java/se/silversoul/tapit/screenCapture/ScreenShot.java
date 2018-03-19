@@ -1,12 +1,11 @@
 package se.silversoul.tapit.screenCapture;
 
-import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Environment;
 import android.util.Log;
 import android.view.View;
-import android.widget.ProgressBar;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
