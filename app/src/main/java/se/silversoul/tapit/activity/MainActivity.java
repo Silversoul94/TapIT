@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        deleteFile();
+        //deleteFile();
 
         constraintLayout = (ConstraintLayout)findViewById(R.id.layout);
         countView = (TextView) findViewById(R.id.theCounter);
@@ -131,11 +131,5 @@ public class MainActivity extends AppCompatActivity {
             IMAGEFILE.delete();
             Log.d("MainActivity/Delete","Delete");
         }
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        deleteFile();
     }
 }
